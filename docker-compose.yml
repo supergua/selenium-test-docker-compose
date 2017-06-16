@@ -1,0 +1,7 @@
+version: '3'
+services:
+    web-test:
+      build: .
+      volumes:
+       - .:/code
+      container_name: selenium-test
